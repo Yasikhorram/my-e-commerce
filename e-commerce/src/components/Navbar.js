@@ -13,6 +13,8 @@ const Wrapper = styled.div`
 `;
 const Left = styled.div`
   flex: 1;
+  display: flex;
+  align-items: center;
 `;
 const Language = styled.span`
   font-size: 14px;
@@ -20,6 +22,8 @@ const Language = styled.span`
 `;
 const SearchContainer = styled.div`
   border: 1px solid blue;
+  display: flex;
+  align-items: center;
 `;
 const Center = styled.div`
   flex: 1;
@@ -35,7 +39,7 @@ const Navbar = () => {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <SearchIcon />
+            input <SearchIcon />
           </SearchContainer>
         </Left>
         <Center>Center</Center>
