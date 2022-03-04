@@ -14,7 +14,7 @@ const Container = styled.div`
 `;
 
 const News = () => {
-  return <Container>SUPER DEALS! Checkout DEALS section.</Container>;
+  return <Container>SUPER DEALS!! Free shipping all across the USA</Container>;
 };
 
 export default News;

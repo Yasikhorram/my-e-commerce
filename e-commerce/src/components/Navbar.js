@@ -8,6 +8,7 @@ const Container = styled.div`
   color: #847cf4;
   background: #f7e0fd;
   height: 80px;
+  font-weight: bold;
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
@@ -72,7 +73,7 @@ const Navbar = () => {
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
             {" "}
-            <Badge badgeContent={2} color="primary">
+            <Badge badgeContent={2} color="secondary">
               <ShoppingCartOutlinedIcon />
             </Badge>
           </MenuItem>
