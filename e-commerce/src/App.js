@@ -1,10 +1,12 @@
 import HomePage from "./pages/Home";
 import Navbar from "./components/Navbar";
+import News from "./components/News";
 
 function App() {
   return (
     <div>
       <Navbar />
+      <News />
     </div>
   );
 }

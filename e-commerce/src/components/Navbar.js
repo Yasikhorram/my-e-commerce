@@ -4,7 +4,9 @@ import Badge from "@mui/material/Badge";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 const Container = styled.div`
   height: 60px;
-  color: red;
+  color: #847cf4;
+  background: #f7e0fd;
+  height: 80px;
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
@@ -47,6 +49,7 @@ const Right = styled.div`
 const MenuItem = styled.div`
   font-size: 14;
   cursor: pointer;
+  margin-left: 25px;
 `;
 
 const Navbar = () => {
@@ -56,7 +59,7 @@ const Navbar = () => {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input /> <SearchIcon />
+            <Input /> <SearchIcon style={{ color: "#80A3FF" }} />
           </SearchContainer>
         </Left>
         <Center>
