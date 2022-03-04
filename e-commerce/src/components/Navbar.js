@@ -2,6 +2,7 @@ import styled from "styled-components";
 import SearchIcon from "@mui/icons-material/Search";
 import Badge from "@mui/material/Badge";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+
 const Container = styled.div`
   height: 60px;
   color: #847cf4;
@@ -23,7 +24,7 @@ const Language = styled.span`
   cursor: pointer;
 `;
 const SearchContainer = styled.div`
-  border: 1px solid blue;
+  // border: 1px solid blue;
   display: flex;
   align-items: center;
   margin-left: 25px;
@@ -32,6 +33,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
+  height: 20px;
 `;
 const Center = styled.div`
   flex: 1;
@@ -63,7 +65,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Disover</Logo>
+          <Logo>$DisoverDeals$</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
